@@ -1,9 +1,28 @@
 # Disaster Recovery
 
+Dieses Repository soll dokumentieren, wie wir beim Freifunk-Stuttgart mit einem Datenverlust im Sinne der Nichtverfügbarkeit umgehen möchten.
+
 ## Offene Punkte
 
-  * Wiki?!?!?! Netbox...?
+  * Netbox, noch unklar, was für Recovery benötigt wird
+  * Dieses Repository nach [https://github.com/freifunk-stuttgart/desaster-recovery-plan] migrieren
 
+
+## Erledigte Punkte
+
+### Wiki enthält wichtige Informationen
+
+Auslöser war, dass diese Dokumentation nur im Wiki verfügbar war. Inzwischen ist diese Dokumentation nach [https://gitlab.freifunk-stuttgart.de/infrastruktur/desaster-recovery-plan] migriert und wird auch nach github.com migriert (noch kein Repository 
+
+
+## Vorbereitungen
+
+Damit ein Desaster-Recovery möglich wird, sind einige Punkte wichtig zu beachten
+
+  * Pläne, wie in bestimmten Situationen reagiert werden soll, damit man im Stress nichts übersieht
+  * Zugangsdaten
+
+In diesem Dokument sind keine Zugangsdaten und Schlüssel enthalten, diese müssen aber im Besitz von Menchen sein, die ein Recovery durchführen müssen. Es ist zu diesem Zweck notwendig eine lokale Kopie von seinen Zugangsdaten, die auf [https://vaultwarden.freifunk-stuttgart.de] liegen, anzulegen. 
 
 ## Szenarien
 
