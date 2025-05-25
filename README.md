@@ -5,14 +5,14 @@ Dieses Repository soll dokumentieren, wie wir beim Freifunk-Stuttgart mit einem 
 ## Offene Punkte
 
   * Netbox, noch unklar, was für Recovery benötigt wird.
-  * Dieses Repository nach [gitlab.freifunk-stuttgart.de](https://github.com/freifunk-stuttgart/desaster-recovery-plan) synchronisieren.
+  * Dieses Repository nach [https://github.com/freifunk-stuttgart/desaster-recovery-plan](https://github.com/freifunk-stuttgart/desaster-recovery-plan) synchronisieren.
 
 
 ## Erledigte Punkte
 
 ### Wiki enthält wichtige Informationen
 
-Auslöser war, dass diese Dokumentation nur im Wiki verfügbar war. Inzwischen ist diese Dokumentation nach [gitlab.freifunk-stuttgart.de](https://gitlab.freifunk-stuttgart.de/infrastruktur/desaster-recovery-plan) migriert und wird auch nach github.com migriert (noch kein Repository 
+Auslöser war, dass diese Dokumentation nur im Wiki verfügbar war. Inzwischen ist diese Dokumentation nach [https://gitlab.freifunk-stuttgart.de/infrastruktur/desaster-recovery-plan](https://gitlab.freifunk-stuttgart.de/infrastruktur/desaster-recovery-plan) migriert und wird auch nach github.com migriert (noch kein Repository 
 
 
 ## Vorbereitungen
@@ -22,7 +22,7 @@ Damit ein Desaster-Recovery möglich wird, sind einige Punkte wichtig zu beachte
   * Pläne, wie in bestimmten Situationen reagiert werden soll, damit man im Stress nichts übersieht
   * Zugangsdaten
 
-In diesem Dokument sind keine Zugangsdaten und Schlüssel enthalten, diese müssen aber im Besitz von Menchen sein, die ein Recovery durchführen müssen. Es ist zu diesem Zweck notwendig eine lokale Kopie von seinen Zugangsdaten, die auf [Vaultwarden](https://vaultwarden.freifunk-stuttgart.de) liegen, anzulegen. 
+In diesem Dokument sind keine Zugangsdaten und Schlüssel enthalten, diese müssen aber im Besitz von Menchen sein, die ein Recovery durchführen müssen. Es ist zu diesem Zweck notwendig eine lokale Kopie von seinen Zugangsdaten, die auf [https://vaultwarden.freifunk-stuttgart.de](https://vaultwarden.freifunk-stuttgart.de) liegen, anzulegen. 
 
 ## Szenarien
 
