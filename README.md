@@ -80,11 +80,9 @@ restore aus PBS
   - Falls dies eine neue Installation ist und keine Backup-Jobs konfiguriert sind
     - Passwort fuer PBS-User nach `/etc/backup/pbs-password.txt` legen
     - Encrpytion key file nach `/etc/backup/pbs-encryption.key` legen
-    - ```
-    export PBS_REPOSITORY=${HOSTNAME}@pbs@pbs01.freifunk-stuttgart.de:srv
-    export PBS_PASSWORD_FILE=/etc/backup/pbs-password.txt
-    export PBS_ENCRYPTION_KEY=/etc/backup/pbs-encryption.key
-    ```
+    - `export PBS_REPOSITORY=${HOSTNAME}@pbs@pbs01.freifunk-stuttgart.de:srv`
+    - `export PBS_PASSWORD_FILE=/etc/backup/pbs-password.txt`
+    - `export PBS_ENCRYPTION_KEY=/etc/backup/pbs-encryption.key`
   - Falls bereits ein Backup-Job im Proxmox konfiguriert ist
     - `source /etc/default/backup_pbs`
     - `export PBS_ENCRYPTION_KEY=/etc/pve/priv/storage/pbs_ffs_pbs01.enc`
