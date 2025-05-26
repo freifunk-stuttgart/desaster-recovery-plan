@@ -71,3 +71,17 @@ siehe Recovery: wir verlieren ffs13 (sinngemaess, keine Cluster Join) und danach
 
 restore aus PBS
 
+## Anleitungen
+
+### Restore per PBS Backup client
+
+  - Proxmox Backup Client gemaess [Doku](https://pbs.proxmox.com/docs/installation.html#package-repositories-client-only-apt) installieren - ist bei einer normalen PVE-Installation bereits da
+  - `apt install proxmox-backup-client`
+  - Passwort fuer PBS-User nach `/etc/backup/pbs-password.txt` legen
+  - Encrpytion key file nach `/etc/backup/pbs-encryption.key` legen
+  - `source /etc/default/backup_pbs`
+  - Vorhandene Backups listen per `proxmox-backup-client snapshot list --ns ffs`
+  - Restore per `proxmox-backup-client restore host/ffs13/2025-01-05T16:58:10Z root.pxar /mnt/ --ns ffs --keyfile /etc/pve/priv/storage/pbs_ffs_pbs01.enc`
+  - fuse-Mount per `<nowiki>proxmox-backup-client mount host/ffs13/2025-01-05T16:58:10Z root.pxar /mnt  --ns ffs --keyfile /etc/pve/priv/storage/pbs_ffs_pbs01.enc</nowiki>`
+
+
